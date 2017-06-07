@@ -1,0 +1,3 @@
+{"cod":"20170606113144","id":"1","text":"Qual o banco de dados que será necessário conectar para obter os dados?","by":"Alessandro"}
+{"cod":"20170606114924","id":"2","text":"dedeeeee","by":"Alessandro"}
+{"cod":"20170606115325","id":"3","text":"Quais as funcionalidades que o sistema deverá ter?","by":"Alessandro"}

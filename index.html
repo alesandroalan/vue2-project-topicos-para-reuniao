@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pesquisa para análise de desenvolvimento</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+	.del {
+		cursor: pointer;
+	}
+</style>
+</head>
+<body>
+<div id="app-4">
+<div class="container" >
+  <div class="row">
+
+<h1>O que perguntar na reunião?</h1>
+
+	  <div class="form-group">
+	    <label for="name">Seu nome</label>
+	    <select class="form-control" id="name" name="name">
+	    	<option value="Alessandro">Alessandro</option>
+	    	<option value="Evandro">Evandro</option>
+	    	<option value="Osmar">Osmar</option>
+	    </select>
+	  </div>
+	  <div class="form-group">
+	    <label for="questao">Questão</label>
+	    <input type="questao" class="form-control" id="questao" placeholder="Questão">
+	  </div>
+	  <a class="btn btn-primary" v-on:click="addData()">Cadastrar</a>
+	  </div>
+</div>
+
+<div class="container" >
+  <div class="row">
+	<h1>Questões cadastradas</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Questão</th>
+				<th>Sugerida por</th>
+				<th>Excluir</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr v-for="todo in todos">
+				<td>{{todo.id}}</td>
+				<td>{{todo.text}}</td>
+				<td>{{todo.by}}</td>
+				<td><a href="javascript:void(0)" class="del" v-on:click="del(todo.cod)">Excluir</a></td>
+			</tr>
+		</tbody>
+	</table>
+  </div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="main.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
