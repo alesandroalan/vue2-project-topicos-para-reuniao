@@ -6,4 +6,4 @@ Projeto Vue.js 2 - Sistema para incluir tópicos que serão discutidos em um reu
 - Permite visualizar
 - Permite remover
 
-Demonstração: <a href="http://protux.pe.hu/pesquisa/" target="_blank"> www.alesandroalanalexandre.com.br/sistema-para-topicos-em-reunioes </a>
+Demonstração: [www.alesandroalanalexandre.com.br/sistema-para-topicos-em-reunioes](http://protux.pe.hu/pesquisa/)
